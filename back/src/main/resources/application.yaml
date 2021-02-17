@@ -1,0 +1,6 @@
+logging.level.root: INFO
+
+#https://stackoverflow.com/questions/62598135/spring-boot-responsestatus-not-returning-http-message
+server:
+  error:
+    include-message: always

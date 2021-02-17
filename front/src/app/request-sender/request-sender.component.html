@@ -1,0 +1,5 @@
+<ngb-alert #selfClosingAlert *ngIf="errorMessage" type="danger" (close)="errorMessage = ''">{{ errorMessage }}
+</ngb-alert>
+<input type="text" [(ngModel)]="inputNumber" />
+<button (click)="send()">Send</button>
+<p>{{result}}</p>
